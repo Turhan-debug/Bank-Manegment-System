@@ -8,6 +8,15 @@ class BankAccount:
         
 def check_balance(self):
         print(f"Current Balance: {self.balance}")
+
+def deposit(self, amount):
+        if amount > 0:
+            self.balance += amount
+            print(f"{amount} deposited successfully.")
+            print(f"New Balance: {self.balance}")
+        else:
+            print("Invalid deposit amount.")
+
         
    
 
