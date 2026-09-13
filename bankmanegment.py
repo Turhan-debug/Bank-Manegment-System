@@ -6,6 +6,9 @@ class BankAccount:
         self.account_holder = account_holder
         self.balance = balance
         
+def check_balance(self):
+        print(f"Current Balance: {self.balance}")
+        
    
 
 
