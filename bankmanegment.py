@@ -26,6 +26,15 @@ def withdraw(self, amount):
             self.balance -= amount
             print(f"{amount} withdrawn successfully.")
             print(f"New Balance: {self.balance}")
+            
+name = input("Enter your name: ")
+
+account = BankAccount(account_number=None, account_holder=name)
+
+print("\nAccount created successfully!")
+print(f"Name: {account.account_holder}")
+print(f"Account Number: {account.account_number}")
+
 
 
         
